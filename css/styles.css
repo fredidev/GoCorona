@@ -1,0 +1,539 @@
+.ContainerHeader {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--white);
+
+  padding-top: 0.875rem;
+
+}
+
+a {
+
+  margin-right: 2.5rem;
+
+  font-size: 0.625rem;
+  letter-spacing: 0.14rem;
+  font-weight: 800;
+
+  color: var(--black);
+  text-decoration: none;
+
+}
+
+button {
+
+  width: 8.31rem;
+  height: 2.56rem;
+
+  color: var(--white);
+  background-color: var(--blue);
+
+  font-weight: 700;
+  font-size: 0.625rem;
+  letter-spacing: 0.14rem;
+
+  border: none;
+  border-radius: 5px;
+
+}
+
+button:hover {
+
+  cursor: pointer;
+  transition: 2s;
+  background-color: var(--blue-hover);
+
+}
+
+.ContainerMain {
+
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--white);
+
+  padding-top: 4rem;
+  padding-bottom: 4.5rem;
+
+}
+
+.TextoPrincipal {
+
+  max-width: 32rem;
+  max-height: 30.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 4rem;
+
+}
+
+.Botao {
+
+  margin-top: 1.5rem;
+
+}
+
+.Titulo {
+
+  font-family: 'Rubik';
+  font-size: 44px;
+
+}
+
+.Descricao {
+
+  max-width: 24.5rem;
+  margin-top: 0.875rem;
+  letter-spacing: 0.03rem;
+
+  font-size: 12px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  color: var(--gray);
+
+}
+
+.CorTitulo {
+
+  color: var(--blue);
+  font-family: 'Rubik';
+
+}
+
+.ContainerFooter {
+
+  display: flex;
+  max-width: 14.75rem;
+  max-height: 2.75rem;
+
+  margin-top: 9rem;
+
+}
+
+.BotaoPlay,
+.BotaoPlay:hover {
+
+  width: 2.75rem;
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50px;
+  border: 1px solid var(--blue);
+
+  background-color: transparent;
+
+}
+
+.TextoFooter {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.75rem;
+
+  font-family: 'Rubik', Arial;
+  font-weight: 400;
+
+}
+
+#TextoFooter {
+
+  color: var(--gray-light);
+  font-size: 0.8rem;
+
+}
+
+#TextoBotao {
+
+  margin-top: 4px;
+  font-size: 0.56rem;
+
+}
+
+.CelularArea {
+
+  padding-bottom: 5rem;
+
+}
+
+.CelularMain {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-top: 8.625rem;
+
+}
+
+.bloco1Celular {
+
+  position: absolute;
+  width: 151.2px;
+  height: 151.2px;
+  left: 170px;
+  top: 760px;
+
+  z-index: -1;
+
+  background: #99B0F3;
+  border-radius: 30px;
+
+}
+
+.bloco2Celular {
+
+  position: absolute;
+  width: 79.2px;
+  height: 79.2px;
+  left: 210px;
+  top: 1200px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+
+  z-index: -1;
+
+}
+
+.bloco3Celular {
+
+  position: absolute;
+  width: 79.2px;
+  height: 79.2px;
+  left: 420px;
+  top: 1090px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+
+  z-index: -1;
+
+}
+
+.ImagemCelular {
+
+  width: 280px;
+  height: 472.11px;
+  top: 857.86px;
+  display: fixed;
+
+  border-radius: 16px;
+
+}
+
+.TextoCelular {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+#TituloCelular {
+
+  max-width: 410px;
+
+}
+
+.EspecialistaMain {
+
+  padding-top: 8.75rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.EspecialistaArea {
+
+  padding-bottom: 4rem;
+  background-color: var(--white);
+
+}
+
+.EspecialistaContainer {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+
+  width: 42rem;
+  height: 7.5rem;
+  background-color: var(--white-light);
+  border-radius: 5px;
+
+  z-index: 2;
+
+}
+
+.bloco1Especialista {
+
+  position: absolute;
+  width: 67.24px;
+  height: 67.24px;
+  left: 320px;
+  top: 1570px;
+
+  background: #99B0F3;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+
+}
+
+.bloco2Especialista {
+
+  position: absolute;
+  width: 99.14px;
+  height: 99.14px;
+  left: 581.95px;
+  top: 1450px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+  transform: rotate(105deg);
+
+}
+
+.bloco3Especialista {
+
+  position: absolute;
+  width: 130.34px;
+  height: 130.34px;
+  left: 950px;
+  top: 1500px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+
+}
+
+.data {
+
+  font-size: 36px;
+  font-weight: 800;
+  font-family: 'Rubik';
+  color: var(--blue);
+
+}
+
+#data1 {
+
+  margin-left: 3.2rem;
+
+}
+
+#data2 {
+
+  margin-left: 3.8rem;
+
+}
+
+#data3 {
+
+  margin-left: 1rem;
+
+}
+
+#subData {
+
+  font-size: 11px;
+  font-weight: 800;
+  font-family: 'Rubik';
+  letter-spacing: 0.15rem;
+
+}
+
+.data,
+.subData {
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.EspecialistaContainerSecundario {
+
+  display: flex;
+  margin-top: 5rem;
+
+}
+
+.EspecialistaTexto {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.ProdutoArea {
+
+  background-color: var(--white-light);
+
+}
+
+
+.ProdutoTexto {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 4rem;
+
+}
+
+.ProdutoDescricao {
+
+  width: 36rem;
+  margin-top: 0.875rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.03rem;
+
+  font-size: 12px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  color: var(--gray);
+
+}
+
+.ListaCards {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bloco1Produtos {
+
+  position: absolute;
+  width: 67.24px;
+  height: 67.24px;
+  left: 150px;
+  top: 2560px;
+
+  background: #99B0F3;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+
+}
+
+.bloco2Produtos {
+
+  position: absolute;
+  width: 99.14px;
+  height: 99.14px;
+  left: 427px;
+  top: 2360px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+  transform: rotate(105deg);
+
+}
+
+.bloco3Produtos {
+
+  position: absolute;
+  width: 130.34px;
+  height: 130.34px;
+  left: 770px;
+  top: 2500px;
+
+  background: #99B0F3;
+  border-radius: 30px;
+  transform: rotate(-30deg);
+
+}
+
+.bloco4Produtos {
+
+  position: absolute;
+  width: 67.24px;
+  height: 67.24px;
+  left: 1145px;
+  top: 2275px;
+
+  background: #99B0F3;
+  border-radius: 16px;
+  transform: rotate(-30deg);
+
+}
+
+.ProdutoCards {
+
+  width: 17.75rem;
+  height: 17.75rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 8px;
+
+  z-index: 2;
+
+  background-color: var(--white-light);
+  box-shadow: 3px 3px var(--blue-light);
+
+}
+
+h3 {
+
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: 'Rubik';
+
+}
+
+.DescricaoCards {
+
+  max-width: 10.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Rubik';
+  color: var(--gray);
+
+}
+
+#Cards {
+
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+
+}
+
+.ProdutoDownload {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+
+}
+
+.DownloadImagens {
+
+  margin-right: 3.5rem;
+
+}

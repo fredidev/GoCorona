@@ -1,0 +1,26 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+
+  --white-light: #ffffff;
+  --white: #FAFBFD;
+  --blue-light: rgba(95, 166, 248, 0.1);
+  --blue: #4285F4;
+  --blue-hover: #2c6cd3;
+  --gray-light: #B0B0B0;
+  --gray: #616161;
+  --black: #000000;
+
+}
+
+body {
+
+  font-family: 'Raleway', 'Rubik';
+
+}
